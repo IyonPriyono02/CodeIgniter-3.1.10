@@ -12,8 +12,9 @@
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 
-	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" href="<?php echo base_url('assets/css.home/bootstrap.min.css') ?>" />
+	<!-- Bootstrap 
+	<link type="text/css" rel="stylesheet" href="<?php //echo base_url('assets/css.home/bootstrap.min.css') ?>" />-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="<?php echo base_url('assets/css.home/style.css') ?>" />
