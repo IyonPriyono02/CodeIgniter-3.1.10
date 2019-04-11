@@ -18,6 +18,16 @@ class Login extends CI_Controller {
   $this->load->view('footer');
  }
 
+
+ public function index_register()
+ {
+
+  $this->load->view('header');
+      $this->load->view('aside');
+  $this->load->view('form_register');
+  $this->load->view('footer');
+ }
+
  public function go()
  {
   $this->load->model("m_login");

@@ -1,3 +1,4 @@
+<div class="container" style="width: 650px">
 <form action="<?php echo base_url('login/proses-login') ?>" method="post"> 
       <div class="form-group has-feedback"> 
         <input type="text" class="form-control" placeholder="Username atau Email" name="username" required id="username"> 
@@ -9,12 +10,16 @@
       </div> 
       <div class="row"> 
         <!– /.col –> 
-        <div class="col-xs-4"> 
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Login</button> 
-        </div> 
-        <div class="col-xs-4"> 
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Registrasi</button> 
-        </div> 
+        <div class="col"> 
+          <button type="submit" class="btn btn-primary btn-block btn-flat">Masuk</button> 
+        </div>
         <!– /.col –> 
-      </div> 
+      </div> <br>
+<div class="row"> 
+        <div class="col"> 
+          <a href="<?php echo site_url('Login/index_register') ?>"><button type="button" class="btn btn-primary btn-block btn-flat">Registrasi</button></a>
+        </div> 
+        </div> 
     </form>
+</div>
+
