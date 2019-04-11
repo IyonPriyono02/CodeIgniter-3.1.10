@@ -49,7 +49,7 @@
                             <small class="form-text text-danger"><?= form_error('jalan') ?>.</small>
                         </div>
 
-                        <button type="submit" name="tambah" class="btn btn-primary float-right">Create Account</button>
+                        <button type="submit" name="tambah" class="btn btn-primary float-right">Registrasi</button>
                     </form>
                 </div>
             </div>
