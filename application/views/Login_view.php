@@ -1,7 +1,10 @@
 <div class="container" style="width: 650px">
-<form action="<?php echo base_url('login/proses-login') ?>" method="post"> 
+  <h1> <?php if(isset($message_display)) {echo $message_display;} ?>
+    
+  </h1>
+<form action="<?php echo site_url('login/go') ?>" method="post"> 
       <div class="form-group has-feedback"> 
-        <input type="text" class="form-control" placeholder="Username atau Email" name="username" required id="username"> 
+        <input type="text" class="form-control" placeholder="Username atau Email" name="email" required id="username"> 
         <span class="glyphicon glyphicon-user form-control-feedback"></span> 
       </div> 
       <div class="form-group has-feedback"> 

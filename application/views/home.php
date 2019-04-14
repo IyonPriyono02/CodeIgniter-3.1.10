@@ -16,7 +16,13 @@
         <a class="nav-link disabled" href="#">Pre Order</a>
       </li>
       <li class="nav-item">
+        <?php if(isset($this->session->userdata['logged_in'])){?>
+
+        <a class="nav-link" href=""><?= $this->session->userdata['logged_in'] ?></a>
+      <?php }else{ ?>
         <a class="nav-link" href="<?php echo site_url('Login/index') ?>">Login</a>
+
+      <?php } ?>
       </li>
       
      

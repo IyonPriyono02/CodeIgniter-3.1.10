@@ -1,7 +1,4 @@
 <?php
-
-
-
 class Registrasi_Models extends CI_Model {
 public function tambahDataPelanggan()
 	{
@@ -20,3 +17,4 @@ public function tambahDataPelanggan()
 		return $this->db->insert('registrasi', $data);
 	}
 }
+
