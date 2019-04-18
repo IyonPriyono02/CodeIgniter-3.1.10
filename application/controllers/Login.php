@@ -50,9 +50,7 @@ class Login extends CI_Controller {
  public function do_logout() 
  {
   $this->session->sess_destroy();
-  $this->load->view('header');
-  $this->load->view('login_view');
-  $this->load->view('footer');
+  redirect(base_url());
  }
 
 }
